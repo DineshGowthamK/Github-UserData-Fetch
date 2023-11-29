@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aqua;
+}
+input{
+    margin: 12px 20px; 
+    padding: 6px 12px;
+    background-color: black;
+    color: red;
+    border: 3px solid red;
+    border-radius: 15px;
+    font-size: larger;
+}
+button{
+    margin: 12px auto;
+    padding: 6px 12px;
+    font-size: medium;
+    border-radius: 15px;
+    background-color: black;
+    color: aqua;
+    border: 3px solid red;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+i{
+    color: red;
+    padding: 5px 5px;
+}
+.card-img,img{
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 60vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 35px 15px;
+}
+h1{
+    padding: 10px 10px;
+    color: red;
+}
+.card{
+    width: 25rem;
+    background-color: #202124;
+    box-shadow: 1px 2px 3px #454545;
+    padding: 10px;
+    margin: 25px;
+}
+.card-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+.card-subHeading{
+    font-size: medium;
+    color: rgb(87, 87, 87);
+}
+#profileInfo{
+    border: 1px solid red;
+}
+#repoInfo{
+    display: flex;
+    flex-wrap: wrap;
+    column-span: 3;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+
+
+
